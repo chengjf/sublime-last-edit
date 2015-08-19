@@ -1,13 +1,10 @@
 [
     {
-        "keys": ["ctrl+."], "command": "last_edit"  
-    },
-    {
-        "keys": ["ctrl+["],"command":"switch_edit_view",
+        "keys": ["ctrl+["],"command":"last_edit",
         "args":{"way":"left"}
     },
     {
-        "keys": ["ctrl+]"],"command":"switch_edit_view",
+        "keys": ["ctrl+]"],"command":"next_edit",
         "args":{"way":"right"}
     }
 ]
